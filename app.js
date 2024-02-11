@@ -10,7 +10,7 @@ const cookieParser = require('cookie-parser');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 console.log(process.env.JWT_SECRET,"jinsjqw");
 const corsOptions = {
-  origin: process.env.FRONT_END_DOAMIN, // Allow requests from this origin
+  origin: "https://anchorshub-iota.vercel.app", // Allow requests from this origin
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 };
 
